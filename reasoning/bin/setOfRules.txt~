@@ -1,0 +1,16 @@
+#This is set of rules for weather
+#Rule have 5 attributed
+# 1. humidity: L: low, M: Medium, H: hight.
+# 2. temperature: VL <10, L [10,20), N[20, 30), H[30,40), VH[> 40); Unit: Cencius
+# 3. wind: L: low, M: Medium, H: hight
+# 4. season: sp: sping, su: summer, au: autumn, wi: winter
+
+#IF season = SP AND humidity = M AND temprature = L AND wind = M THEN 1
+#IF humidity = M THEN 1
+
+#Season Humidity temprature wind result
+SP,M,L,M,1
+SP,M,L,L,2
+SP,M,H,M,1
+
+
